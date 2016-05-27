@@ -45,6 +45,7 @@
                 <ul>
                     <li id="u1" onclick="evUsuarios(this)"><input type="submit" value="Registrar usuario"/></li>
                     <li id="u2" onclick="evUsuarios(this)"><input type="submit" value="Usuarios registrados"/></li>
+                    <li id="u3" onclick="evUsuarios(this)"><input type="submit" value="Ver video"/></li>
                     <input type="hidden" id="hiddenSelection" name="seleccionAdmin" value="-1" />
                 </ul>
             </form>
@@ -70,6 +71,10 @@
                    require "../../scripts/consultas.php";
                    echo "<h1 id='tituloUsuarios'>Usuarios</h1>";
                    echo muestraUsuarios();
+               }
+               elseif($val==3)
+               {
+                   echo "<iframe id='video' width=\"420\" height=\"315\" src=\"https://www.youtube.com/embed/nIjVuRTm-dc\" frameborder=\"0\" allowfullscreen></iframe>";
                }
             ?>
         </section>
