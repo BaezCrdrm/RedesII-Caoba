@@ -1,0 +1,43 @@
+#tituloFormReg {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    #formAlta {
+        width: 370px;
+        margin: auto;
+    }
+    
+        #formAlta h3 {
+            margin-top: 8px;
+            margin-bottom: 3px;
+        }
+    
+        #area li{
+            width: 150px;
+            display: inline-block;
+        }
+            #area li select {
+                width: 100%;
+            }
+            
+        #mail li {
+            display: inline;
+        }
+
+        .inpDatosB {
+            width: 170px;
+            margin-top: 3px;
+        }
+        
+        .paraDetalles {
+            width: 100%;
+            margin-bottom: 10px;
+            /*display: none;*/
+        }
+        
+            .paraDetalles textarea {
+                width: 100%;
+                height: 100px;
+            }

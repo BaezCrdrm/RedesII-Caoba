@@ -1,0 +1,21 @@
+<form id="formEquiposUsuarios" action="">
+    <input type="email" id="idUsuario" name="userId" placeholder="ID de usuario" required/><br>
+    
+    <ul>
+        <li>
+            <label for="tipoEquipo">Tipo de equipo</label><br>
+            <select id="tipoEquipo" name="tipo" onchange="selTipo(this)" required></select>
+        </li>
+        
+        <li>
+            <label for="idEquipo">ID del equipo</label><br>
+            <select id="idEquipo" name="id" onchange="selId(this)" required></select>
+        </li>
+    </ul>
+    
+    <textarea name="descripcion" id="detalles" maxlength="199"></textarea><br><br>
+    
+    <input type="text" id="dirIP" name="ip" required placeholder="Dirección IP asignada" />
+    
+    <input type="submit" value="Aceptar"/>
+</form>

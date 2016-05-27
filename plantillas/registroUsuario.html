@@ -1,0 +1,32 @@
+<h1 id="tituloFormReg">Usuario</h1>
+<form id="formAlta" action="" method="post">
+    <ul id="area">
+        <li>
+            <label for="sel1">Selecciona el área</label><br>
+            <select name="area" id="sel1" onchange="selArea(this)" required="required"></select>
+        </li>
+        <li>
+            <label for="sel2">Departamento</label><br>
+            <select name="deps" id="sel2"></select>
+        </li>
+    </ul>
+
+    <h3>Asignar nuevo correo de usuario</h3>
+    <ul id="mail">
+        <li><input type="text" id="dirCE" name="direccion" placeholder="Usuario" required="required"></li>
+        <li><label>@</label></li>
+        <li><input type="text" id="subDom" name="subdominio" placeholder="subdominio" readonly="readonly"></li>
+    </ul><br>
+    <input type="password" id="pass" name="password" placeholder="Contraseña"/>
+    
+    <h3>Datos de usuario</h3>
+    <input type="text" class="inpDatosB" id="nom" name="nombres" placeholder="Nombre(s)" required="required"><br>
+    <input type="text" class="inpDatosB" id="ape" name="apellidos" placeholder="Apellido(s)" required="required"><br>
+    <input type="date" class="inpDatosB" id="date" name="fecha" required="required"><br>
+    
+    <div id="divDetalles" class="paraDetalles">
+        <h3>Detalles trabajo</h3>
+        <textarea type="text" id="detallesTrabajo" name="detalles" maxlength="499" value="" ></textarea>
+    </div>
+    <input type="submit" value="Aceptar"/>
+</form>

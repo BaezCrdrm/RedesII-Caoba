@@ -1,0 +1,48 @@
+body {
+    color: black;
+}
+
+header a, header a:visited, header {
+    color: white;
+}
+
+header {       
+    opacity: 0.9;   
+    background-color: saddlebrown; 
+}
+
+#principal {
+    background-color: white;
+    height: 650px;
+}
+
+#principal * {
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: justify;
+}
+
+    #faqTitulo {
+        padding-top: 120px;
+        font-size: 28px;
+        color: saddlebrown;
+    }
+    
+    .pregunta {
+        font-size: 23px;
+        color: gray;
+    }
+    
+    #principal a {
+        text-decoration: none;
+    }
+    
+    #principal article {
+        margin-left: 0;
+    }
+    
+    #principal h1 {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    

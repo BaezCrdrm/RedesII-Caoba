@@ -1,0 +1,24 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    width: 100%;    
+    height: 100px;
+}
+
+footer {
+    width: 100%;
+    border-top: 1px solid gray;
+    clear: both;
+}
+
+#tituloCaoba {
+    text-decoration: none;
+}

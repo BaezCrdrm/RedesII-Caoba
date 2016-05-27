@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Trabajo en proceso</title>
+        
+        <style type="text/css">
+            * {
+                color: white;
+                margin: 0;
+                font-family: Helvetica;
+            }
+            
+            body {
+                background-color: black;
+                text-align: center;
+            }
+            
+            h1 {
+                margin-top: 20px;
+            }
+            
+            img {
+                width: 35%;
+                height: auto;
+                margin-top: 50px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <h1>Trabajo en proceso</h1>
+        <h2>Gracias por la paciencia</h2>
+        <img src="img/wip1.jpg" onclick="play()"></br>
+        <img src="img/wip2.jpg" onclick="play()">
+        
+        <h5 style="margin-top:50px; margin-bottom:30px;">May the force be with you.</h5>
+        <audio id="htmlAudio"></audio>
+        
+        <script type="text/javascript">
+            function play(){
+                var audio = document.getElementById("htmlAudio");
+                audio.src="Multimedia/sw-mi.mp3";
+                audio.play();
+            }
+        </script>
+    </body>
+</html>

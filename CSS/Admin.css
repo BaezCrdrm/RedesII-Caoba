@@ -1,0 +1,86 @@
+body {
+    width: 100%;
+    min-width: 600px;
+}
+
+header, footer {
+    color:white;
+    background-color: gray;
+}
+
+    #saludo {
+        margin-top:30px;
+        margin-left: 30px;
+        
+        float: left;
+    }
+
+    header a {
+        margin-right: 40px;
+        margin-top: 60px;   
+        
+        float: right;
+    }
+    
+    header a, header a:visited {
+        color:white;
+    }
+    
+aside, aside ul input {
+    background-color: lightgray; ;
+}
+
+aside {
+    height: 500px;    
+    float: left;    
+}
+
+    aside h2 {
+        margin-top:10px;
+        text-align: center;
+    }
+    
+    aside ul input {
+        color: #666;
+    }
+
+#content {
+    width: 80%;
+    height: 500px;
+    
+    float: right;
+    background-color: white;
+    
+    overflow: scroll;
+}
+    /*Tabla detalles de usuario*/
+    #tituloUsuarios {
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    #detalles {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    
+        #detalles td {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        
+        .btnBorrar {
+            background-color: rgba(173, 0, 0, 1);
+            color: white;
+            border: 2px solid rgba(173, 0, 0, 1);
+        }
+        
+        .btnBorrar, .btnDetalles{
+            padding-left: 4px;
+            padding-right: 4px;
+        }
+
+footer {
+    height: 50px;
+}

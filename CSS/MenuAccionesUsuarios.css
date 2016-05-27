@@ -1,0 +1,21 @@
+aside {
+    width: 20%;
+}
+
+    aside > * {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    aside ul {
+            list-style: none;
+    }
+    
+    aside ul input {
+        width: auto;
+        border: none;
+    }
+    
+    aside ul input:hover {
+        opacity: 0.5;
+    }

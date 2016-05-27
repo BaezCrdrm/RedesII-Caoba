@@ -1,0 +1,30 @@
+<!--Este es el index del login-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Iniciar sesión - Caoba</title>
+        <link rel="stylesheet" href="../CSS/General.css">
+        <link rel="stylesheet" href="../CSS/Login.css">
+    </head>
+    <body>
+        <header>
+            <a id="tituloCaoba" href="../"><h1>Caoba</h1></a>
+        </header>
+        
+        <section id="content">
+            <h1>Inicia sesión</h1>
+            <form id="formulario" action="../scripts/validaUsuario.php" method="post">
+                <input class="caja" name="user" type="email" placeholder="Correo"><br>
+                <input class="caja" name="password" type="password" placeholder="Contraseña"><br>
+                <input class="submit" type="submit" value="Iniciar sesión">
+            </form>
+        </section>
+        
+        <footer>
+            <h1>Caoba</h1>
+            
+            <h3><a href="../faq/">faq</a></h3>
+        </footer>
+    </body>
+</html>

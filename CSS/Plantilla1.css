@@ -1,0 +1,21 @@
+header {
+    position: fixed; 
+}
+
+#menu {
+    float: right;
+}
+
+#logo, #menu {
+    width: 50%;
+    height: 100%;
+}
+
+#logo {
+    float: left;
+}
+
+#logo h1 {
+    margin: 20px 30px;
+    font-size: 50px;
+}
