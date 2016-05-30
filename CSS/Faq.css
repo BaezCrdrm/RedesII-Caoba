@@ -6,9 +6,13 @@ header a, header a:visited, header {
     color: white;
 }
 
+#faqTitulo, .mail,  #principal h1,  #principal h3 {
+    color: saddlebrown; 
+}
+
 header {       
     opacity: 0.9;   
-    background-color: saddlebrown; 
+    background-color: saddlebrown
 }
 
 #principal {
@@ -25,7 +29,6 @@ header {
     #faqTitulo {
         padding-top: 120px;
         font-size: 28px;
-        color: saddlebrown;
     }
     
     .pregunta {
@@ -46,3 +49,15 @@ header {
         margin-bottom: 0px;
     }
     
+    .mail {
+        font-weight: bold;
+    }
+    
+    article p {
+        margin-bottom: 10px;
+    }
+    
+    article p * {        
+        margin-left:0 !important;
+        margin-right:0 !important;
+    }
