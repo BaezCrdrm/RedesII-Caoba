@@ -9,6 +9,10 @@ function evUsuarios(li){
         case "u2":
             hidden.value = "2";
             break;
+            
+        case "u3":
+            hidden.value = "3";
+            break;
     }
 }
 
