@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Acerca de nosotros</title>
+        <link rel="stylesheet" href="../CSS/General.css">
+        <link rel="stylesheet" href="../CSS/Menu.css">
+        <link rel="stylesheet" href="../CSS/Acerca.css">        
+    </head>
+    
+    <body>
+        <header>
+            <nav id="logo">
+                <h1 title="Ve a inicio"><a href="../">Caoba</a></h1>
+            </nav>
+            
+            <nav id="menu">
+                <ul>
+                    <!--<li class="liMenu"><a href="wip.html">Casa</a></li>-->
+                    <li class="liMenu"><a href="../contacto/">Contacto</a></li>
+                    <li class="liMenu"><a href="#">Acerca de</a></li>
+                    <li id="ingreso"><a href="../login/">Ingresar</a></li>
+                </ul>
+            </nav>   
+            
+            <nav id="subMenu">
+                <ul>
+                    <li class="liSubMenu" onclick="desplaza(0)">¿Quiénes somos?</li>
+                    <li class="liSubMenu" onclick="desplaza(770)">Misión</li>
+                    <li class="liSubMenu" onclick="desplaza(1300)">Visión</li>
+                    <li class="liSubMenu" onclick="desplaza(2700)">Organigrama</li>
+                </ul>
+            </nav>            
+        </header>
+        
+        <section id="principal">
+            <div class="divCont" id="qs">
+                <article>
+                    <h1>¿Quiénes somos?</h1>
+                    <p>Caoba es una empresa fabricante y vendedora de muebles, la cual pretende tener 5 sucursales en diferentes puntos de la República Mexicana, y vender a través de sus sucursales al mayoreo mediante diversos tipos de tratos, pero no cuenta con un sistema de ventas a través de internet aún</p>
+                </article>
+            </div>
+            
+            <div class="libre"></div>
+            
+            <div class="divCont" id="mision">
+                <article>
+                    <h1>Misión</h1>
+                    <p>Garantizar que la producción de nuestros muebles sea de gran calidad para nuestros clientes, así como buscar mejoras cada día en cuanto al diseño y fabricación de cada uno de ellos, agregando a nuestra agenda diversos y nuevos clientes. </p>
+                    <center><img src="../img/ellos.jpg" alt=""></center>
+                </article>
+            </div>
+            
+            <div class="divCont" id="vision">
+                <article>
+                    <h1>Visión</h1>
+                    <p>Convertirnos en la productora y comercializadora de muebles más grande e importante de la Ciudad, así como trascender en toda la República Mexicana para poder brindar nuestros servicios de calidad en cada parte del país. Así mismo Ser la primera opción de quienes requieren muebles, ya sea de hogar u oficina.</p>
+                    <center><img src="../img/grupo.jpg" alt=""></center>
+                </article>
+            </div>
+            
+            <div class="libre"></div>
+            
+            <div class="divCont" id="org">
+                <h1>Organigrama</h1>
+                <p>A continuación, se mostrará la estructura jerárquica dentro de nuestra empresa.</p>
+                <center><img src="../img/Jerarquia.png" alt="Estructura Caoba"></center>
+            </div>
+            
+            <div id="hola" onclick="hola(this)"></div>
+        </section>
+        
+        <script src="../scripts/vista.js"></script>
+        <footer>
+            
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,48 @@
+body {
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: beige;
+    color: black;
+}
+header {
+    background-color: black;
+    position: fixed;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+#menu ul{
+    margin-top: 40px;
+}
+
+#logo{
+    width: 200px;
+}
+
+#principal {
+    min-height:150px;    
+}
+h2,h4{
+    /*color: ;*/
+    font-family:Century;
+    font-size: 120%;
+    text-align: center;
+}
+
+#principal > h2 {
+     padding-top: 180px;
+}
+
+#principal > form {
+    padding-top:50px;
+    width: 300px;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#comentarios {
+    width: 100%;
+}
