@@ -74,7 +74,7 @@
                }
                elseif($val==3)
                {
-                   echo "<iframe id='video' width=\"500\" height=\"315\" src=\"https://www.youtube.com/embed/IM18_5lycXY\" frameborder=\"0\" allowfullscreen></iframe>";
+                   echo "<iframe id='video' width=\"500\" height=\"315\" src=\"https://www.youtube.com/embed/IM18_5lycXY\" frameborder=\"0\" autoplay allowfullscreen></iframe>";
                }
             ?>
         </section>
