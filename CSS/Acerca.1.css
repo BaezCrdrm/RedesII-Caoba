@@ -37,10 +37,6 @@ header a{
         margin-top: 5px;
         display: inline-block;
     }
-    
-    .liSubMenu:hover {
-        color:gray;
-    }
 
 #principal {
     min-height:500px;

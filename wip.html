@@ -4,45 +4,49 @@
         <meta charset="utf-8"/>
         <title>Trabajo en proceso</title>
         
-        <style type="text/css">
-            * {
-                color: white;
-                margin: 0;
-                font-family: Helvetica;
-            }
-            
-            body {
+        <link rel="stylesheet" href="CSS/General.css">
+        <link rel="stylesheet" href="CSS/Menu.css">
+        
+        <style>
+            header {
                 background-color: black;
+                color: white;
+            }
+            #menu {
+                margin-top: -20px;
+            }
+            #menu a {
+                color:white;
+            }
+            #content h1 {
+                width: 80%;
+                margin-top: 150px;
+                margin-left:auto;
+                margin-right:auto;
                 text-align: center;
-            }
-            
-            h1 {
-                margin-top: 20px;
-            }
-            
-            img {
-                width: 35%;
-                height: auto;
-                margin-top: 50px;
+                font-size: 30px;
             }
         </style>
     </head>
     
     <body>
-        <h1>Trabajo en proceso</h1>
-        <h2>Gracias por la paciencia</h2>
-        <img src="img/wip1.jpg" onclick="play()"></br>
-        <img src="img/wip2.jpg" onclick="play()">
+        <header>
+            <nav id="logo">
+                <h1 title="Estás en casa">Caoba</h1>
+            </nav>
+            
+            <nav id="menu">
+                <ul>
+                    <!--<li class="liMenu"><a href="wip.html">Casa</a></li>-->
+                    <li class="liMenu"><a href="contacto/">Contacto</a></li>
+                    <li class="liMenu"><a href="acerca/">Acerca de</a></li>
+                    <li id="ingreso"><a href="login/">Ingresar</a></li>
+                </ul>
+            </nav>
+        </header>
         
-        <h5 style="margin-top:50px; margin-bottom:30px;">May the force be with you.</h5>
-        <audio id="htmlAudio"></audio>
-        
-        <script type="text/javascript">
-            function play(){
-                var audio = document.getElementById("htmlAudio");
-                audio.src="Multimedia/sw-mi.mp3";
-                audio.play();
-            }
-        </script>
+        <section id="content">
+            <h1>Lo sentimos, esta página aun está bajo construcción.</h1>
+        </section>
     </body>
 </html>

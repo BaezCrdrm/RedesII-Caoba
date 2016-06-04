@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Contáctanos</title>
+        <link rel="stylesheet" href="../CSS/General.css">
+        <link rel="stylesheet" href="../CSS/Menu.css">
+        <link rel="stylesheet" href="../CSS/Contacto.css">
+        
+    </head>
+    
+    <body>
+        <header>
+              <nav id="logo">
+                <h1 title="Ve a inicio"><a href="../">Caoba</a></h1>
+            </nav>
+            
+            <nav id="menu">
+                <ul>
+                    <!--<li class="liMenu"><a href="wip.html">Casa</a></li>-->
+                    <li class="liMenu"><a href="#">Contacto</a></li>
+                    <li class="liMenu"><a href="../acerca">Acerca de</a></li>
+                    <li id="ingreso"><a href="../login/">Ingresar</a></li>                    
+                </ul>
+                
+            </nav>
+            
+        </header>
+                
+        <section id="principal">
+            <h2>Porque tú opinión nos es importante nos gustaria que te tomes 
+                un minuto para conocer más tus preferencias y poder seguir mejorando
+                para ti, brindandote lo mejor y lo que necesitas.</h2> 
+            <form name="contacto" onsubmit="sub()">
+                    <input type="text" id="user" placeholder="Correo" name="Correo" required/>
+                    <br/>
+                    <input type="number" id="user" min="5" max="120" placeholder="Edad" name="edad" required/>
+                    <br/>
+                    <p>¿Deseas recibir nuestras promociones?</p>
+                    <label for="si">Si</label><input type="radio" id="si" name="noticias" value="si" checked/>
+                    <br/>
+                    <label for="no">No</label><input type="radio" id="no" name="noticias" value="no"/>
+                    <br/>
+                    <p>¿Qué muebles te agradan más ?</p>
+                    <label for="AC">Sillones</label><input type="checkbox" id="AC" name="lenguajes" value="Accesorios"/>
+                    <br/>
+                    <label for="CA">Mesas</label><input type="checkbox" id="js" name="lenguajes" value="Calzado"/>
+                    <br/>
+                    <label for="AN">Sillas</label><input type="checkbox" id="AN" name="lenguajes" value="AN"/>
+                    <br/>
+                    <textarea id="comentarios" placeholder="Deja tu comentario..."></textarea>
+                    
+                    <input type="submit" />
+            </form>
+        </section>
+        <script type="text/javascript" src="../CSS/Contacto.js"></script>
+</section>
+
+      <h4>Para mas informes comunicate al telefono 53-89-90-10</h3>
+
+          
+    </body>
+</html>

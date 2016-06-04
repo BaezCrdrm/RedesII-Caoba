@@ -12,3 +12,8 @@ function hola(elemento)
 {
     elemento.style.backgroundImage = "url(../img/wip1.jpg)";
 }
+
+function desplaza(cantidad)
+{
+    window.scrollTo(0, cantidad);
+}
